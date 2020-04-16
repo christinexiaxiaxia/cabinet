@@ -147,9 +147,12 @@ div.cabinet {
 	mix-blend-mode: multiply;
 	opacity: 0;
 	z-index: -200;
+	cursor: grab;
 }
 
-div.cabinet:active {
+div.cabinet:active,
+div.cabinet:focus,
+.object:active img {
 	cursor: grabbing;
 }
 
@@ -175,6 +178,7 @@ div.footer.right {
 /*OBJECTS*/
 
 div.object {
+	position: relative;
 }
 
 div.object:hover {
@@ -195,6 +199,10 @@ div.object.combo.rows {
 div.object.combo:hover img {
 	opacity: 1;
 	filter: grayscale(0);
+}
+
+div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
+	position: relative;
 }
 
 
@@ -232,6 +240,21 @@ div.object.combo:hover img {
 
 
 
+.sontag {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 11;
+}
+
+
+
+.classify-pain {
+	grid-column-start: 9;
+	grid-column-end: 11;
+	grid-row-start: 10;
+}
+
+
 
 .grave-eternity {
 	grid-column-start: 4;
@@ -267,6 +290,38 @@ div.object.combo:hover img {
 
 
 
+.archives {
+	grid-column-start: 8;
+	grid-column-end: 11;
+	grid-row-start: 19;
+}
+
+.rec-inv {
+	grid-column-start: 3;
+	grid-column-end: 7;
+	grid-row-start: 1;
+}
+
+.act-archive {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 2;
+}
+
+.dig-archive {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 2;
+}
+
+.database {
+	grid-column-start: 2;
+	grid-column-end: 8;
+	grid-row-start: 3;
+}
+
+
+
 
 
 
@@ -278,6 +333,10 @@ a {
 	color: black;
 
 	cursor: alias;
+}
+
+.italic {
+	font-style: italic;
 }
 
 .title {
@@ -310,8 +369,12 @@ p.title.main:hover {
 p.desc.main {
 	position: absolute;
 	bottom: 2rem;
+	width: 30vw;
+
+	line-height: 1.5rem;
 
 	opacity: 0;
+	z-index: -200;
 	transition-duration: 0.3s;
 }
 
@@ -338,25 +401,77 @@ p.footer {
 	font-family: Lyon Display Light;
 }
 
+p.number {
+	position: absolute;
+	margin: 0;
+
+	font-family: GT Super Display Light;
+	font-size: 2rem;
+	font-variant-numeric: lining-nums;  
+	text-align: left;
+
+	user-select: none;
+}
+
+p.number.left {
+	left: -3rem;
+}
+
+p.number.left.short {
+	left: -2rem;
+}
+
+p.number.left.long {
+	left: -4rem;
+}
+
+p.number.right {
+	right: -3rem;
+}
+
+p.number.left.short {
+	right: -2rem;
+}
+
+p.number.right.long {
+	right: -4rem;
+}
+
+p.number.top {
+	top: 0;
+}
+
+p.number.bottom {
+	bottom: 0;
+}
+
+
+
+
 
 /*IMAGES*/
 
 img {
 	width: 100%;
 
-	opacity: 0.6;
+	opacity: 0.4;
 	filter: grayscale(1);
+	mix-blend-mode: multiply;
 
 	user-select: none;
-	cursor: alias;
 	transition-duration: 0.3s;
 }
 
 img:hover {
 	opacity: 1;
 	filter: grayscale(0);
+	cursor: alias;
 
 	transition-duration: 0.3s;
+}
+
+img.outline {
+	border: solid 1px black;
 }
 
 
