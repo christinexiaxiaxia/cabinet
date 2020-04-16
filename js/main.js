@@ -34,14 +34,14 @@ $('.cabinet').draggable({
 
 // CLICK IMAGES TO OPEN NEW WINDOWS
 
-$('.saving-grace1').click(function(){
-	window.open('img/saving-grace1.jpg');
-})
-$('.saving-grace2').click(function(){
-	window.open('img/saving-grace2.jpg');
-})
+// $('.saving-grace1').click(function(){
+// 	window.open('img/saving-grace1.jpg');
+// })
+// $('.saving-grace2').click(function(){
+// 	window.open('img/saving-grace2.jpg');
+// })
 
 
-$('.classify-pain').click(function(){
-	window.open('img/classify-pain.png');
-})
+// $('.classify-pain').click(function(){
+// 	window.open('img/classify-pain.png');
+// })
