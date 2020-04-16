@@ -16,11 +16,20 @@ $('.orb').click(function() {
 })
 
 
+// QUESTION MARK HOVER/ABOUT
+
+$('.about').hover(function(){
+	$('.desc.main').css({'opacity':'1'})
+}, function(){
+	$('.desc.main').css({'opacity':'0'})
+})
+
+
 // DRAGGABLE CABINET
 
 $('.cabinet').draggable({
 	containment: "parent", 
-	scroll: false,
-    zIndex: 10000
+	// scroll: false,
+ //    zIndex: 10000
 });
 // $('.cabinet').draggable();
