@@ -118,7 +118,9 @@ div.list {
 	grid-row-gap: 3rem;
 
 	height: calc(100vh - 8rem);
-	width: calc(100vw - 2rem);
+	width: calc(100vw - 4rem);
+
+	padding-right: 2rem;
 
 	overflow: auto;
 }
@@ -215,6 +217,10 @@ img:hover {
 	filter: grayscale(0);
 
 	transition-duration: 0.3s;
+}
+
+.outline {
+	border: solid 1px black;
 }
 
 
