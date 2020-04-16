@@ -128,9 +128,9 @@ div.orb {
 
 div.cabinet-container {
 	position: fixed;
-	top: -1135vh;
+	top: -1235vh;
 	left: -125vw;
-	height: 2350vh;
+	height: 2450vh;
 	width: 350vw;
 }
 
@@ -257,8 +257,8 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 
 
 .souvenir {
-	grid-column-start: 4;
-	grid-column-end: 6;
+	grid-column-start: 6;
+	grid-column-end: 7;
 	grid-row-start: 4;
 }
 
@@ -368,7 +368,7 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 
 
 
-.speaking {
+.feelings {
 	grid-column-start: 8;
 	grid-column-end: 10;
 	grid-row-start: 10;
@@ -385,8 +385,8 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 
 
 .ess-anon2 {
-	grid-column-start: 5;
-	grid-column-end: 7;
+	grid-column-start: 4;
+	grid-column-end: 8;
 	grid-row-start: 12;
 }
 
@@ -401,16 +401,20 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 
 
 .glory {
-	grid-column-start: 3;
-	grid-column-end: 8;
+	grid-column-start: 4;
+	grid-column-end: 10;
 	grid-row-start: 13;
 }
 .glory1 {
 	grid-column-start: 1;
-	grid-column-end: 5;
+	grid-column-end: 3;
 }
 .glory2 {
-	grid-column-start: 5;
+	grid-column-start: 3;
+	grid-column-end: 6;
+}
+.glory3 {
+	grid-column-start: 6;
 	grid-column-end: 9;
 }
 
@@ -551,6 +555,7 @@ p.footer {
 
 #alt-amp {
 	font-family: Lyon Display Light;
+	font-size: 2rem;
 }
 
 p.number {
