@@ -627,8 +627,13 @@ img:hover {
 	transition-duration: 0.3s;
 }
 
-img.outline {
+.outline {
 	border: solid 1px black;
+}
+
+.touched-box {
+	width: 100%;
+	height: 100%;
 }
 
 
