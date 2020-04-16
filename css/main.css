@@ -128,9 +128,9 @@ div.orb {
 
 div.cabinet-container {
 	position: fixed;
-	top: -625vh;
+	top: -1135vh;
 	left: -125vw;
-	height: 1350vh;
+	height: 2350vh;
 	width: 350vw;
 }
 
@@ -141,7 +141,7 @@ div.cabinet {
 
 	top: calc(50% - 100vh);
 	left: calc(50% - 100vw);
-	height: 700vh;
+	height: 1200vh;
 	width: 200vw;
 
 	mix-blend-mode: multiply;
@@ -344,6 +344,14 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 
 
 
+.trophies {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 9;
+}
+
+
+
 .incense {
 	grid-column-start: 2;
 	grid-column-end: 4;
@@ -352,17 +360,25 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 
 
 
-.artifacts {
-	grid-column-start: 3;
-	grid-column-end: 5;
-	grid-row-start: 11;
+.do-not-print {
+	grid-column-start: 6;
+	grid-column-end: 8;
+	grid-row-start: 10;
 }
 
 
 
-.do-not-print {
+.speaking {
 	grid-column-start: 8;
 	grid-column-end: 10;
+	grid-row-start: 10;
+}
+
+
+
+.artifacts {
+	grid-column-start: 4;
+	grid-column-end: 6;
 	grid-row-start: 11;
 }
 
@@ -379,7 +395,7 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 .others {
 	grid-column-start: 9;
 	grid-column-end: 11;
-	grid-row-start: 12;
+	grid-row-start: 11;
 }
 
 
@@ -565,7 +581,7 @@ p.number.right {
 	right: -3rem;
 }
 
-p.number.left.short {
+p.number.right.short {
 	right: -2rem;
 }
 
