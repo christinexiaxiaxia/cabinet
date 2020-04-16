@@ -128,9 +128,9 @@ div.orb {
 
 div.cabinet-container {
 	position: fixed;
-	top: -425vh;
+	top: -625vh;
 	left: -125vw;
-	height: 650vh;
+	height: 1350vh;
 	width: 350vw;
 }
 
@@ -141,7 +141,7 @@ div.cabinet {
 
 	top: calc(50% - 100vh);
 	left: calc(50% - 100vw);
-	height: 200vh;
+	height: 700vh;
 	width: 200vw;
 
 	mix-blend-mode: multiply;
@@ -214,10 +214,52 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 	grid-row-start: 1;
 }
 
-.ess-anon2 {
-	grid-column-start: 5;
-	grid-column-end: 7;
-	grid-row-start: 15;
+
+
+.touched {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+}
+
+
+
+.save-us-all {
+	grid-column-start: 8;
+	grid-column-end: 11;
+	grid-row-start: 2;
+}
+
+
+
+.william-kate {
+	grid-column-start: 8;
+	grid-column-end: 9;
+	grid-row-start: 3;
+}
+
+
+
+.harry-meghan {
+	grid-column-start: 9;
+	grid-column-end: 10;
+	grid-row-start: 3;
+}
+
+
+
+.masters {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+}
+
+
+
+.souvenir {
+	grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 4;
 }
 
 
@@ -225,14 +267,12 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 .saving-grace {
 	grid-column-start: 2;
 	grid-column-end: 5;
-	grid-row-start: 10;
+	grid-row-start: 5;
 }
-
 .saving-grace1 {
 	grid-column-start: 1;
 	grid-column-end: 7;
 }
-
 .saving-grace2 {
 	grid-column-start: 7;
 	grid-column-end: 9;
@@ -240,10 +280,58 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 
 
 
-.sontag {
+.card {
 	grid-column-start: 5;
-	grid-column-end: 7;
-	grid-row-start: 11;
+	grid-column-end: 6;
+	grid-row-start: 6;
+}
+
+
+
+.crown {
+	grid-column-start: 8;
+	grid-column-end: 9;
+	grid-row-start: 6;
+}
+
+
+
+.player {
+	grid-column-start: 7;
+	grid-column-end: 8;
+	grid-row-start: 7;
+}
+
+
+
+.obo {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 7;
+}
+
+
+
+.exhibition {
+	grid-column-start: 1;
+	grid-column-end: 8;
+	grid-row-start: 8;
+}
+.exhibition1 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+.exhibition2 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+}
+
+
+
+.sontag {
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 9;
 }
 
 
@@ -251,7 +339,63 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 .classify-pain {
 	grid-column-start: 9;
 	grid-column-end: 11;
+	grid-row-start: 9;
+}
+
+
+
+.incense {
+	grid-column-start: 2;
+	grid-column-end: 4;
 	grid-row-start: 10;
+}
+
+
+
+.artifacts {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 11;
+}
+
+
+
+.do-not-print {
+	grid-column-start: 8;
+	grid-column-end: 10;
+	grid-row-start: 11;
+}
+
+
+
+.ess-anon2 {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 12;
+}
+
+
+
+.others {
+	grid-column-start: 9;
+	grid-column-end: 11;
+	grid-row-start: 12;
+}
+
+
+
+.glory {
+	grid-column-start: 3;
+	grid-column-end: 8;
+	grid-row-start: 13;
+}
+.glory1 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+.glory2 {
+	grid-column-start: 5;
+	grid-column-end: 9;
 }
 
 
@@ -259,29 +403,25 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 .grave-eternity {
 	grid-column-start: 4;
 	grid-column-end: 8;
-	grid-row-start: 20;
+	grid-row-start: 14;
 
 	grid-template: 10rem 1fr / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* ROWS / COLUMNS */
 }
-
 .grave-eternity1 {
 	grid-column-start: 4;
 	grid-column-end: 6;
 	grid-row-start: 1;
 }
-
 .grave-eternity2 {
 	grid-column-start: 3;
 	grid-column-end: 7;
 	grid-row-start: 2;
 }
-
 .grave-eternity3 {
 	grid-column-start: 1;
 	grid-column-end: 3;
 	grid-row-start: 2;
 }
-
 .grave-eternity4 {
 	grid-column-start: 7;
 	grid-column-end: 9;
@@ -293,27 +433,23 @@ div.item { /*INDIVIDUAL IMAGE WITH NUMBER WITHIN COMBOS*/
 .archives {
 	grid-column-start: 8;
 	grid-column-end: 11;
-	grid-row-start: 19;
+	grid-row-start: 15;
 }
-
 .rec-inv {
 	grid-column-start: 3;
 	grid-column-end: 7;
 	grid-row-start: 1;
 }
-
 .act-archive {
 	grid-column-start: 1;
 	grid-column-end: 5;
 	grid-row-start: 2;
 }
-
 .dig-archive {
 	grid-column-start: 5;
 	grid-column-end: 9;
 	grid-row-start: 2;
 }
-
 .database {
 	grid-column-start: 2;
 	grid-column-end: 8;
@@ -465,7 +601,7 @@ img {
 img:hover {
 	opacity: 1;
 	filter: grayscale(0);
-	cursor: alias;
+	/*cursor: alias;*/
 
 	transition-duration: 0.3s;
 }
